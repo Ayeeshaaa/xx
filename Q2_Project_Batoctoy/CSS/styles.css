@@ -1,0 +1,135 @@
+body{
+   background-size: auto;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+   background-position-x: center;
+   background-color: rgb(120, 138, 155);
+}
+#header{
+    padding: 9px;
+    padding-bottom: 0px;
+    border: 3px solid rgba(128, 128, 128, 0.37);
+    background-color: rgba(128, 128, 128, 0.13);
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    border-top-style: dotted;
+}
+h2, h3, h4, p{
+    font-family: Verdana;
+}
+h2.header{
+    color: darkslategray;
+}
+h3.header, h4{
+    color: darkslategray;
+}
+#header2{
+    padding: 6px;
+    border: 1px solid rgba(128, 128, 128, 0.37);
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+div.Button{
+    border: 2px solid darkslategray;
+    border-top-style: dashed;
+    border-bottom-style: dashed;
+    padding: 5px;
+    margin: auto;
+}
+a:link{
+    background-color: lightgray;
+    padding: 8px;
+    color: darkslategray;
+    text-decoration: none;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+}
+a:visited.button{
+    background-color: white;
+}
+a:hover.button{
+    background-color: rgba(119, 136, 153, 0.336);
+    color: black;
+}
+a:active.button{
+    background-color: darkgrey;
+}
+a.notbutton{
+    font-family: 'Arial Narrow';
+}
+a:link.notbutton{
+    background-color: rgb(120, 138, 155);
+}
+a:active.notbutton{
+    color: black;
+}
+a:hover.notbutton{
+    color: black;
+}
+div.space{
+    height: 20px;
+}
+#img{
+    width: 600px;
+    height: 400px;
+    opacity: 0.7;
+    border-radius: 50%;
+}
+div.withimage{
+    text-align: center;
+    
+}
+hr{
+    height: 1.5px;
+    border-color: lightgray;
+    background-color: lightgray;
+    width: 60%;
+    margin: auto;
+}
+div.hometext{
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+}
+#intro{
+    text-align: left;
+    font-size: 24px;
+    font-weight:bolder;
+}
+div.grid-container{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    width: 80%;
+    margin: auto; 
+}
+div.grid-item{
+    padding: 8px;
+    margin-right: auto;
+    text-align:justify;
+}
+#innerimg2{
+    width: 400px;
+    height: 500px;
+    max-width: 400px;
+    margin-left: 80px;
+}
+#maintext{
+    text-align: justify;
+    background-color: rgba(0, 0, 205, 0.068);
+    padding: 20px;
+    border-radius: 5px;
+    width: 500px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+}
+#vid{
+    margin-left: 30px;
+}
